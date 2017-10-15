@@ -168,6 +168,7 @@ pip-log.txt
 
 # Spyder projects 
 *.spyderproject
+.spyderproject
 *.spyder*
 
 #PyCharm Projects
@@ -175,3 +176,4 @@ pip-log.txt
 
 # Visual Studio Code
 *.vscode
+.vscode
