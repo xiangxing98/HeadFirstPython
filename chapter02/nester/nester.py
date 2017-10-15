@@ -1,5 +1,21 @@
 """
 This can print all the intem in the list or in the list of list
+
+1. Change directory to module directry
+cd chapter02/nester/
+
+2. Create distrabution tool
+python setup.py sdist
+
+3. install
+python setup.py install
+
+4. Usage
+import nester
+nester.print_lol(movies)
+
+5. http://pypi.python.org registration PyPI(Python Package Index)& Command line Confirn
+python setup.py register
 """
 import sys 
 def print_lol(the_list,indent=False,level=0,fh=sys.stdout):
