@@ -1,4 +1,21 @@
-# Modified By Stone Hou @ 1017-10-15
+# -*- encoding: utf-8 -*-
+# !/usr/bin/env python
+'''
+@File    :   01-list-movie.py
+@Time    :   2020/08/23 10:06:56
+@Author  :   Stone_Hou
+@Version :   1.0
+@Contact :   xiangxing985529@163.com
+@License :   (C)Copyright 2010-2020, Stone_Hou
+@Desc    :   None
+@Refer   :   https://github.com/xiangxing98
+@File    :   01-list-movie.py
+'''
+
+# here put the import lib
+
+
+# Modified By Stone Hou @ 2020/08/23 10:06:56
 # 首选yapf unify code format
 # python - m pip install yapf
 # python - m pip install autopep8
@@ -257,3 +274,16 @@ print("-----------------new line End-----------------")
 # Eric Idle
 # Terry Jones
 # -----------------new line End-----------------
+
+
+'''
+# Reference:
+https://www.cnblogs.com/xingchuxin/p/10433444.html
+
+# Running Code:
+cd /f/Github/xiangxing98.github.io/Python_Learning
+python 01-list-movie.py
+
+# Output:
+
+'''
