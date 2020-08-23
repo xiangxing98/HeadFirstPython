@@ -61,7 +61,7 @@ cast.insert(0, 'Fox')
 print(cast)
 # ['Fox', 'Palin', 'Jones', 'Idle', 'Yahoo', 'Chapman']
 
-#Excise 1 insert years after the movie name
+# Excise 1 insert years after the movie name
 movies = ['The Holy Grail', 'The Life of Brian', 'The meaning of life']
 print(movies)
 # ['The Holy Grail', 'The Life of Brian', 'The meaning of life']
@@ -69,9 +69,10 @@ movies.insert(1, 1975)
 movies.insert(3, 1979)  # after insert 1975, the length of movies changed
 movies.append(1983)
 print(movies)
-# ['The Holy Grail', 1975, 'The Life of Brian', 1979, 'The meaning of life', 1983]
+# ['The Holy Grail', 1975, 'The Life of Brian', 1979, 'The meaning of life',
+#  1983]
 
-#Excise 1 create new list
+# Excise 1 create new list
 movies2 = [
     'The Holy Grail', 1975, 'The Life of Brian', 1979, 'The meaning of life',
     1983
@@ -103,11 +104,13 @@ while count < len(fav_movies):
 # List Element 0 :  The Holy Grail
 # List Element 1 :  The Life of Brian
 
-#List in List
+# List in List
 print("-----------------new line-----------------")
 movies = [
-    'The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91, [
-        'Graham Chapman', [
+    'The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91,
+    [
+        'Graham Chapman',
+        [
             'Michael Palin', 'John Cleese', 'Terry Gilliam', 'Eric Idle',
             'Terry Jones'
         ]
@@ -117,7 +120,9 @@ print(movies[4][1][3])  # shows Eric Idle
 # Eric Idle
 
 print(movies)
-# ['The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91, ['Graham Chapman', ['Michael Palin', 'John Cleese', 'Terry Gilliam', 'Eric Idle', 'Terry Jones']]]
+# ['The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91,
+# ['Graham Chapman', ['Michael Palin', 'John Cleese', 'Terry Gilliam',
+# 'Eric Idle', 'Terry Jones']]]
 
 for each_movie in movies:
     print(each_movie)  # 这里只能打印第一层的列表
@@ -125,16 +130,18 @@ for each_movie in movies:
 # 1975
 # Terry Jones&Terry Gilliam
 # 91
-# ['Graham Chapman', ['Michael Palin', 'John Cleese', 'Terry Gilliam', 'Eric Idle', 'Terry Jones']]
-
+# ['Graham Chapman', ['Michael Palin', 'John Cleese', 'Terry Gilliam',
+# 'Eric Idle', 'Terry Jones']]
 
 # if element is list, handle and do something
 # else print out directly
 # print list in list
 print("-----------------isinstance()-----------------")
 movies = [
-    'The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91, [
-        'Graham Chapman', [
+    'The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91,
+    [
+        'Graham Chapman',
+        [
             'Michael Palin', 'John Cleese', 'Terry Gilliam', 'Eric Idle',
             'Terry Jones'
         ]
@@ -149,8 +156,10 @@ print(isinstance(movies[4], list))
 
 # print 2nd level instance
 movies = [
-    'The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91, [
-        'Graham Chapman', [
+    'The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91,
+    [
+        'Graham Chapman',
+        [
             'Michael Palin', 'John Cleese', 'Terry Gilliam', 'Eric Idle',
             'Terry Jones'
         ]
@@ -175,8 +184,10 @@ print("-----------------new line-----------------")
 
 # print 3rd level instance
 movies = [
-    'The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91, [
-        'Graham Chapman', [
+    'The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91,
+    [
+        'Graham Chapman',
+        [
             'Michael Palin', 'John Cleese', 'Terry Gilliam', 'Eric Idle',
             'Terry Jones'
         ]
@@ -194,6 +205,7 @@ for each_item in movies:
     else:
         print(each_item)
 print("-----------------new line-----------------")
+
 # -----------------new line-----------------
 # The Holy Grail
 # 1975
@@ -207,7 +219,8 @@ print("-----------------new line-----------------")
 # Terry Jones
 # -----------------new line-----------------
 
-#重复的代码用函数代替
+
+# 重复的代码用函数代替
 def print_lol(the_list):
     print("-----------------Function Start-----------------")
     for each_item in the_list:
@@ -216,9 +229,12 @@ def print_lol(the_list):
         else:
             print(each_item)
 
+
 movies = [
-    'The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91, [
-        'Graham Chapman', [
+    'The Holy Grail', 1975, 'Terry Jones&Terry Gilliam', 91,
+    [
+        'Graham Chapman',
+        [
             'Michael Palin', 'John Cleese', 'Terry Gilliam', 'Eric Idle',
             'Terry Jones'
         ]
