@@ -201,5 +201,5 @@ Learning Python
 
 # Head First  Python Jupyter Notebook
 
-Head First Python Chapter 01.ipynb
-
+1. Head First Python Chapter 01-Learning Notes.ipynb
+2. Head First Python Chapter 02-Learning Notes.ipynb

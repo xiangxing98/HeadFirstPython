@@ -10,3 +10,14 @@ def print_lol(the_list):
                         print_lol(item)
                 else:
                         print(item)
+'''
+# Reference:
+https://www.cnblogs.com/xingchuxin/p/10433444.html
+
+# Running Code:
+cd F:\Github\Python\HeadFirstPython\HeadFirstPython\chapter02\nester.py
+python nester.py
+
+# Output:
+
+'''
