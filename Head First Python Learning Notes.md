@@ -203,3 +203,614 @@ Learning Python
 
 1. Head First Python Chapter 01-Learning Notes.ipynb
 2. Head First Python Chapter 02-Learning Notes.ipynb
+
+Table of contents
+Dedication
+Advance Praise for Head First Python, Second Edition
+Praise for the first edition
+Praise for other Head First books
+Praise for other Head First books
+
+Author of Head First Python, 2nd Edition
+How to use this Book: Intro
+Who Is This Book For?
+Who should probably back away from this book?
+We Know What You’re Thinking
+We know what your brain is thinking
+Metacognition: Thinking About Thinking
+Here’s What WE Did:
+Here’s what YOU can do to bend your brain into submission
+Read Me, 1 of 2
+Read Me, 2 of 2
+The Technical Review Team
+Acknowledgments and Thanks
+O’Reilly Safari
+1. The Basics: Getting Started Quickly
+Breaking with Tradition
+Starting with a meatier example
+Jump Right In
+Python’s IDLE is all you need to get going
+Understanding IDLE’s Windows
+What Happens Next...
+Press F5 to Run Your Code
+Code Runs Immediately
+Executing Code, One Statement at a Time
+Let’s be the Python interpreter
+Functions + Modules = The Standard Library
+Batteries Included
+Data Structures Come Built-in
+Python variables are dynamically assigned
+Invoking Methods Obtains Results
+Invoking built-in module functionality
+Deciding When to Run Blocks of Code
+What Happened to My Curly Braces?
+A colon introduces an indented suite of code
+What “else” Can You Have with “if”?
+Suites Can Contain Embedded Suites
+What We Already Know
+Extending Our Program to Do More
+What we need to do:
+What’s the Best Approach to Solving This Problem?
+Both approaches work with Python
+Returning to the Python Shell
+Experimenting at the Shell
+Iterating Over a Sequence of Objects
+Iterating a Specific Number of Times
+Applying the Outcome of Task #1 to Our Code
+Indent Suites with Format...Indent Region
+Arranging to Pause Execution
+Importation Confusion
+Generating Random Integers with Python
+Asking the Interpreter for Help
+Reviewing Our Experiments
+Updating What We Already Know
+A Few Lines of Code Do a Lot
+Coding a Serious Business Application
+Dealing with all that beer...
+Python Code Is Easy to Read
+Is Indentation Driving You Crazy?
+Getting back to the beer song code
+Asking the Interpreter for Help on a Function
+Starting, stopping, and stepping
+Experimenting with Ranges
+Don’t Forget to Try the Beer Song Code
+Wrapping up what you already know
+With all the beer gone, what’s next?
+Chapter 1’s Code
+2. List Data: Working with Ordered Data
+Numbers, Strings...and Objects
+Numbers
+Strings
+Objects
+“Everything Is an Object”
+But...what does all this actually mean?
+Meet the Four Built-in Data Structures
+Ordered Collections Are Mutable/Immutable
+An Unordered Data Structure: Dictionary
+A Data Structure That Avoids Duplicates: Set
+The 80/20 data structure rule of thumb
+A List Is an Ordered Collection of Objects
+How to spot a list in code
+Creating Lists Literally
+Putting Lists to Work
+Working with lists
+Is one object inside another? Check with “in”
+Use Your Editor When Working on More Than a Few Lines of Code
+Don’t forget: press F5 to run your program
+“Growing” a List at Runtime
+Checking for Membership with “in”
+Is the object “in” or “not in”?
+It’s Time to Update Our Code
+Removing Objects from a List
+Popping Objects Off a List
+Extending a List with Objects
+Inserting an Object into a List
+What About Using Square Brackets?
+What Happened to “plist”?
+Lists: What We Know
+What Looks Like a Copy, But Isn’t
+How to Copy a Data Structure
+Square Brackets Are Everywhere
+Lists: Updating What We Already Know
+Lists Extend the Square Bracket Notation
+Lists Understand Start, Stop, and Step
+You can put start, stop, and step inside square brackets
+List Slices in Action
+Starting and Stopping with Lists
+Stepping with Lists
+Slices are everywhere
+Putting Slices to Work on Lists
+Converting “Don’t panic!” to “on tap”
+Putting Slices to Work on Lists, Continued
+Which Is Better? It Depends...
+Slicing a List Is Nondestructive
+So...which is better?
+Python’s “for” Loop Understands Lists
+Understanding marvin.py’s code
+Python’s “for” Loop Understands Slices
+Marvin’s Slices in Detail
+Lists: Updating What We Know
+What’s Wrong with Lists?
+When Not to Use Lists
+Chapter 2’s Code, 1 of 2
+Chapter 2’s Code, 2 of 2
+3. Structured Data: Working with Structured Data
+A Dictionary Stores Key/Value Pairs
+Make Dictionaries Easy to Read
+How to Spot a Dictionary in Code
+What happened to the insertion order?
+Insertion Order Is NOT Maintained
+Dictionaries understand square brackets
+Value Lookup with Square Brackets
+Dictionary lookup is fast!
+Working with Dictionaries at Runtime
+Recap: Displaying Found Vowels (Lists)
+How Can a Dictionary Help Here?
+Selecting a Frequency Count Data Structure
+Updating a Frequency Counter
+Updating a Frequency Counter, v2.0
+Iterating Over a Dictionary
+Iterating Over Keys and Values
+Dictionaries: What We Already Know
+Specifying the ordering of a dictionary on output
+Iterating Over a Dictionary with “items”
+Just How Dynamic Are Dictionaries?
+Dictionary keys must be initialized
+Avoiding KeyErrors at Runtime
+Checking for Membership with “in”
+Ensuring Initialization Before Use
+Substituting “not in” for “in”
+Putting the “setdefault” Method to Work
+Dictionaries: updating what we already know
+Aren’t Dictionaries (and Lists) Enough?
+Sets Don’t Allow Duplicates
+Spotting sets in your code
+Creating Sets Efficiently
+Creating sets from sequences
+Taking Advantage of Set Methods
+union Works by Combining Sets
+What happened to the loop code?
+difference Tells You What’s Not Shared
+intersection Reports on Commonality
+Sets: What You Already Know
+Using a set was the perfect choice here...
+Making the Case for Tuples
+How to spot a tuple in code
+Tuples Are Immutable
+Watch Out for Single-Object Tuples
+Combining the Built-in Data Structures
+Storing a Table of Data
+A Dictionary Containing a Dictionary
+A Dictionary of Dictionaries (a.k.a. a Table)
+Pretty-Printing Complex Data Structures
+Visualizing Complex Data Structures
+Accessing a Complex Data Structure’s Data
+Data Is As Complex As You Make It
+Chapter 3’s Code, 1 of 2
+Chapter 3’s Code, 2 of 2
+4. Code Reuse: Functions and Modules
+Reusing Code with Functions
+Introducing Functions
+What About Type Information?
+Naming a Chunk of Code with “def”
+Invoking Your Function
+Edit your function in an editor, not at the prompt
+Use IDLE’s Editor to Make Changes
+What’s the Deal with All Those Strings?
+Understanding the string quote characters
+Follow Best Practice As Per the PEPs
+Functions Can Accept Arguments
+Functions Return a Result
+Returning One Value
+Returning More Than One Value
+What’s the deal with “set()”?
+Recalling the Built-in Data Structures
+Use Annotations to Improve Your Docs
+Why Use Function Annotations?
+Functions: What We Know Already
+Making a Generically Useful Function
+Creating Another Function, 1 of 3
+Creating Another Function, 2 of 3
+Creating Another Function, 3 of 3
+Specifying Default Values for Arguments
+Positional Versus Keyword Assignment
+Updating What We Know About Functions
+Functions Beget Modules
+Creating modules couldn’t be easier, however...
+How Are Modules Found?
+Running Python from the Command Line
+Not Found Modules Produce ImportErrors
+ImportErrors Occur No Matter the Platform
+Getting a Module into Site-packages
+Using “setuptools” to install into site-packages
+Creating the Required Setup Files
+Creating the Distribution File
+Creating a distribution file on Windows
+Distribution Files on UNIX-like OSes
+Installing Packages with “pip”
+Step 3 on Windows
+Step 3 on UNIX-like OSes
+Modules: What We Know Already
+Giving your code away (a.k.a. sharing)
+Demonstrating Call-by-Value Semantics
+Demonstrating Call-by-Reference Semantics
+Can I Test for PEP 8 Compliance?
+Getting Ready to Check PEP 8 Compliance
+Recalling our code
+Installing pytest and the pep8 plug-in
+Install the Testing Developer Tools
+How PEP 8–Compliant Is Our Code?
+Understanding the Failure Messages
+Confirming PEP 8 Compliance
+Conformance to PEP 8 is a good thing
+Chapter 4’s Code
+5. Building a Webapp: Getting Real
+Python: What You Already Know
+Let’s Build Something
+What Do We Want Our Webapp to Do?
+What Happens on the Web Server?
+What do we need to get going?
+Let’s Install Flask
+Install Flask from the command-line with pip
+How Does Flask Work?
+Check that Flask is installed and working
+Run Flask from your OS command line
+Running Your Flask Webapp for the First Time
+Here’s What Happened (Line by Line)
+Creating a Flask Webapp Object
+Decorating a Function with a URL
+Running Your Webapp’s Behavior(s)
+Exposing Functionalit y to the Web
+Recall What We’re Trying to Build
+Here’s the plan
+Building the HTML Form
+But...what if you’re new to all this HTML stuff?
+Create the HTML, then send it to the browser
+Templates Relate to Web Pages
+Rendering Templates from Flask
+Displaying the Webapp’s HTML Form
+Preparing to Run the Template Code
+We’re Ready for a Test Run
+Understanding HTTP Status Codes
+Handling Posted Data
+Refining the Edit/Stop/Start/Test Cycle
+Accessing HTML Form Data with Flask
+Using Request Data in Your Webapp
+Automatic Reloads
+Producing the Results As HTML
+Calculating the Data We Need
+Adding a Finishing Touch
+Redirect to Avoid Unwanted Errors
+Functions Can Have Multiple URLs
+Updating What We Know
+Is that all there is to this chapter?
+Preparing Your Webapp for the Cloud
+Exploiting Dunder Name Dunder Main
+Deploying to PythonAnywhere (well... almost)
+Chapter 5’s Code
+6. Storing and Manipulating Data: Where to Put Your Data
+Doing Something with Your Webapp’s Data
+Python Supports Open, Process, Close
+Reading Data from an Existing File
+A Better Open, Process, Close: “with”
+The “with” statement manages context
+Invoking the logging function
+A Quick Review
+Take your webapp for a spin...
+Data is logged (behind the scenes)
+View the Log Through Your Webapp
+Where to start when things go wrong with your output
+Examine the Raw Data with View Source
+It’s Time to Escape (Your Data)
+Viewing the Entire Log in Your Webapp
+Learning More About the Request Object
+What’s all this, then?
+Logging Specific Web Request Attributes
+Log a Single Line of Delimited Data
+One Final Change to Our Logging Code
+From Raw Data to Readable Output
+Does This Remind You of Anything?
+Use a Dict of Dicts...or Something Else?
+Take a closer look at the logged data
+What’s Joined Together Can Be Split Apart
+Getting to a list of lists from a list of strings
+When Should the Conversion Occur?
+Processing Data: What We Already Know
+Take a closer look at the output
+Generate Readable Output With HTML
+Embed Display Logic in Your Template
+Producing Readable Output with Jinja2
+The Current State of Our Webapp Code
+Asking Questions of Your Data
+Chapter 6’s Code
+7. Using a Database: Putting Python’s DB-API to Use
+Database-Enabling Your Webapp
+Task 1: Install the MySQL Server
+Introducing Python’s DB-API
+Task 2: Install a MySQL Database Driver for Python
+Install MySQL-Connector/Python
+Task 3: Create Our Webapp’s Database and Tables
+Decide on a Structure for Your Log Data
+Confirm Your Table Is Ready for Data
+Task 4: Create Code to Work with Our Webapp’s Database and Tables
+Storing Data Is Only Half the Battle
+This new function is a big change
+How Best to Reuse Your Database Code?
+Consider What You’re Trying to Reuse
+What About That Import?
+Be careful when positioning your import statements
+Consider What You’re Trying to Do
+You’ve Seen This Pattern Before
+The Bad News Isn’t Really All That Bad
+Chapter 7’s Code
+8. A Little Bit of Class: Abstracting Behavior and State
+Hooking into the “with” Statement
+An Object-Oriented Primer
+A class bundles behavior and state
+Classes have methods and attributes
+Creating Objects from Classes
+Objects Share Behavior but Not State
+Defining what we want CountFromBy to do
+Doing More with CountFromBy
+It’s Worth Repeating Ourselves: Objects Share Behavior but Not State
+Invoking a Method: Understand the Details
+Method Invocation: What Actually Happens
+Adding a Method to a Class
+Are You Serious About “self”?
+The Importance of “self”
+Coping with Scoping
+Prefix Your Attribute Names with “self”
+Initialize (Attribute) Values Before Use
+Dunder “init” Initializes Attributes
+Initializing Attributes with Dunder “init”
+Pass any amount of argument data to dunder “init”
+What have we learned from this Test Drive?
+Understanding CountFromBy’s Representation
+Defining CountFromBy’s Representation
+Providing Sensible Defaults for CountFromBy
+Classes: What We Know
+Chapter 8’s Code
+9. The Context Management Protocol: Hooking into Python’s with Statement
+What’s the Best Way to Share Our Webapp’s Database Code?
+Consider What You’re Trying to Do, Revisited
+How best to create a context manager?
+Managing Context with Methods
+Dunder “enter” performs setup
+Dunder “exit” does teardown
+(As you know) dunder “init” initializes
+You’ve Already Seen a Context Manager in Action
+What’s required from you
+Create a New Context Manager Class
+Initialize the Class with the Database Config
+Your context manager begins to take shape
+Perform Setup with Dunder “enter”
+Don’t forget to prefix all attributes with “self”
+Perform Teardown with Dunder “exit”
+Your context manager is re ady for testing
+There’s not much code here, is there?
+Reconsidering Your Webapp Code, 1 of 2
+Reconsidering Your Webapp Code, 2 of 2
+Recalling the “log_request” Function
+Amending the “log_request” Function
+Recalling the “view_the_log” Function
+It’s Not Just the Code That Changes
+Amending the “view_the_log” Function
+Here’s the SQL query you’ll need
+It’s nearly time for one last Test Drive
+All That Remains...
+Answering the Data Questions
+How many requests have been responded to?
+What’s the most common list of letters?
+Which IP addresses are the requests coming from?
+Which browser is being used the most?
+Chapter 9’s Code, 1 of 2
+Chapter 9’s Code, 2 of 2
+10. Function Decorators: Wrapping Functions
+Your Webapp Is Working Well, But...
+Only authenticated users gain access
+The Web Is Stateless
+HTTP is to blame...
+Your Web Server (Not Your Computer) Runs Your Code
+It’s Time for a Bit of a Session
+Flask’s Session Technology Adds State
+Dictionary Lookup Retrieves State
+Time for a Test Drive?
+Managing Logins with Sessions
+Let’s Do Login
+Amend the webapp’s code to handle logins
+Let’s Do Logout and Status Checking
+Amend the webapp’s code once more
+Why Not Check for False?
+Can We Now Restrict Access to URLs?
+Copy-and-Paste Is Rarely a Good Idea
+Put shared code into its own function
+Creating a Function Helps, But...
+You’ve Been Using Decorators All Along
+Pass a Function to a Function
+Functions can take a function as an argument
+Invoking a Passed Function
+Functions Can Be Nested Inside Functions
+When would you ever use this?
+Return a Function from a Function
+Accepting a List of Arguments
+Use * to accept an arbitrary list of arguments
+Processing a List of Arguments
+* works on the way in, too
+Accepting a Dictionary of Arguments
+Use ** to accept arbitrary keyword arguments
+Processing a Dictionary of Arguments
+** works on the way in, too
+Accepting Any Number and Type of Function Arguments
+A Recipe for Creating a Function Decorator
+Recap: We Need to Restrict Access to Certain URLs
+Creating a Function Decorator
+That’s almost too easy, isn’t it?
+Can you see why the nested function is called “wrapper”?
+The Final Step: Handling Arguments
+We’re done...or are we?
+Your Decorator in All Its Glory
+Putting Your Decorator to Work
+The Beauty of Decorators
+Creating More Decorators
+Back to Restricting Access to /viewlog
+What’s Next?
+Chapter 10’s Code, 1 of 2
+Chapter 10’s Code, 2 of 2
+11. Exception Handling: What to Do When Things Go Wrong
+Databases Aren’t Always Available
+Web Attacks Are a Real Pain
+Input-Output Is (Sometimes) Slow
+Your Function Calls Can Fail
+Considering the Identified Problems
+1. Your database connection fails
+2. Your application is subjected to an attack
+3. Your code takes a long time to execute
+4. Your function call fails
+Always Try to Execute Error-Prone Code
+Catching an Error Is Not Enough
+There can be more than one exception raised...
+try Once, but except Many Times
+A Lot of Things Can Go Wrong
+The Catch-All Exception Handler
+Haven’t We Just Lost Something?
+Learning About Exceptions from “sys”
+The Catch-All Exception Handler, Revisited
+Getting Back to Our Webapp Code
+Silently Handling Exceptions
+Handling Other Database Errors
+Does “More Errors” Mean “More excepts”?
+Avoid Tightly Coupled Code
+The DBcm Module, Revisited
+Creating Custom Exceptions
+The empty class isn’t quite empty...
+What Else Can Go Wrong with “DBcm”?
+Creating More Custom Exceptions
+Are Your Database Credentials Correct?
+Handling SQLError Is Different
+Be Careful with Code Positioning
+Raising an SQLError
+A Quick Recap: Adding Robustness
+What happens if something takes a long time?
+How to Deal with Wait? It Depends...
+Chapter 11’s Code, 1 of 3
+Chapter 11’s Code, 2 of 3
+Chapter 11’s Code, 3 of 3
+12. 11¾ A Little Bit of Threading: Dealing with Waiting
+Waiting: What to Do?
+How Are You Querying Your Database?
+Database INSERTs and SELECTs Are Different
+Doing More Than One Thing at Once
+Concurrent code: you have options
+Don’t Get Bummed Out: Use Threads
+First Things First: Don’t Panic
+Don’t Get Bummed Out: Flask Can Help
+Is Your Webapp Robust Now?
+Chapter 11¾’s Code, 1 of 2
+Chapter 11¾’s Code, 2 of 2
+13. Advanced Iteration: Looping Like Crazy
+Bahamas Buzzers Have Places to Go
+Reading CSV Data As Lists
+Reading CSV Data As Dictionaries
+Let’s Back Up a Little Bit
+Stripping, Then Splitting, Your Raw Data
+Be Careful When Chaining Method Calls
+Transforming Data into the Format You Need
+Transforming into a Dictionary Of Lists
+Think about the data wrangling that’s needed here...
+Let’s Do the Basic Conversions
+Did You Spot the Pattern in Your Code?
+Spotting the Pattern with Lists
+Converting Patterns into Comprehensions
+Take a Closer Look at the Comprehension
+What’s the Big Deal?
+Comprehensions aren’t just for lists
+Specifying a Dictionary Comprehension
+Extend Comprehensions with Filters
+Recall What You Set Out to Do
+Deal with Complexity the Python Way
+Extract a Single Destination’s Flight Times
+Extract Flight Times for All Destinations
+That Feeling You Get...
+The Set Comprehension in Action
+How to Spot a Comprehension
+What About “Tuple Comprehensions”?
+Parentheses Around Code == Generator
+Generators produce data items one at a time...
+Using a Listcomp to Process URLs
+Using a Generator to Process URLs
+Using a Generator: What Just Happened?
+Define What Your Function Needs to Do
+Yield to the Power of Generator Functions
+Tracing Your Generator Function, 1 of 2
+Tracing Your Generator Function, 2 of 2
+Concluding Remarks
+One Final Question
+Chapter 12’s Code
+It’s Time to Go…
+You’re on your way!
+A. Installation: Installing Python
+Install Python 3 on Windows
+Download, then install
+Check Python 3 on Windows
+It’s Python 3 on Windows, sort of...
+Add to Python 3 on Windows
+Install Python 3 on Mac OS X (macOS)
+Using a package manager
+Check and Configure Python 3 on Mac OS X
+The Python 3 folder on Mac OS X
+You’re ready to run on Mac OS X
+Install Python 3 on Linux
+B. Pythonanywhere: Deploying Your Webapp
+Step 0: A Little Prep
+Step 1: Sign Up for PythonAnywhere
+Step 2: Upload Your Files to the Cloud
+Step 3: Extract and Install Your Code
+Step 4: Create a Starter Webapp, 1 of 2
+Step 4: Create a Starter Webapp, 2 of 2
+Step 5: Configure Your Webapp
+Step 6: Take Your Cloud-Based Webapp for a Spin!
+C. Top Ten Things we Didn’t Cover: There’s Always More to Learn
+1. What About Python 2?
+2. Virtual Programming Environments
+3. More on Object Orientation
+4. Formats for Strings and the Like
+5. Getting Things Sorted
+6. More from the Standard Library
+collections
+itertools
+functools
+7. Running Your Code Concurrently
+New keywords: async and await
+8. GUIs w ith Tkinter (and Fun w ith Turtles)
+9. It’s Not Over ’Til It’s Tested
+10. Debug, Debug, Debug
+D. Top Ten Projects not Covered: Even More Tools, Libraries, and Modules
+1. Alternatives to >>>
+2. Alternatives to IDLE
+What does Paul use?
+3. Jupyter Notebook: The Web-Based IDE
+4. Doing Data Science
+5. Web Development Technologies
+But wait, there’s more
+6. Working with Web Data
+Scrape that web data!
+7. More Data Sources
+There’s more to querying data than SQL
+8. Programming Tools
+More help with testing, too
+9. Kivy: Our Pick for “Coolest Project Ever”
+10. Alternative Implementations
+E. Getting Involved: The Python Community
+BDFL: Benevolent Dictator for Life
+PSF: The Python Sof t ware Foundation
+PyCon: The Python Conference
+A Tolerant Community: Respect for Diversit
+Come for the language, stay for the community
+Python Podcasts
+Python Newsletters
+The Zen of Python
+Which Book Should I Read Next?
+Our Favorite Python Books
+Index
+About the Author
+Copyright
