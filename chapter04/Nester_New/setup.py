@@ -2,7 +2,7 @@
 # !/usr/bin/env python
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding ='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
@@ -11,7 +11,7 @@ setuptools.setup(
 	# 软件包的名称。该名称由字母，数字，_和-组成。
 	# 并且不能与其他已经上传至pypi.org的项目相同
 
-    version='1.5.6',
+    version='1.5.7',
 	# version: 软件包的版本
 	
     author='Stone_hou',
@@ -54,7 +54,7 @@ setuptools.setup(
 # Packaging Python Projects
 
 # Step 1
-# cd /d F:\Github\Python\HeadFirstPython\HeadFirstPython\chapter02\nester_packaging\
+# cd /d F:\Github\Python\HeadFirstPython\HeadFirstPython\chapter04\Nester_New\
 
 # Step 2
 # python setup.py sdist bdist_wheel
@@ -71,3 +71,7 @@ setuptools.setup(
 # Step 5
 # pip install nester_hou
 # python -m pip install --index-url https://test.pypi.org/simple/ --no-deps nester_hou
+
+# Step 6 Offline install
+# cd /d F:\Github\Python\HeadFirstPython\HeadFirstPython\chapter04\Nester_New\dist
+# pip install nester_hou-1.5.6-py3-none-any.whl

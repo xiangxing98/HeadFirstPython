@@ -6,7 +6,7 @@ to write your content.
 
 ## Folder Structure
 
-```
+```{bash}
 # tree
 .
 ├── build
@@ -41,7 +41,7 @@ tidy_page
 │   ├──extractor.py
 │   ├──__init__.py
 │   └──titles.py
- 
+
 ```
 
 `dist`下的文件是需要上传到pypi下的
@@ -58,7 +58,7 @@ tidy_page
 
 ```python
 #!/usr/bin/env python
-from os.path import abspath, dirname, join 
+from os.path import abspath, dirname, join
 from __future__ import print_function
 from setuptools import setup, find_packages
 import sys
@@ -85,7 +85,7 @@ setup(
         "beautifulsoup4",
         lxml_requirement
         ],
-	keywords=['django', 'jaeger', 'jaegertracing'], 
+    keywords=['django', 'jaeger', 'jaegertracing'],
     classifiers=[
         "Framework :: Django",
         "Environment :: Web Environment",
@@ -120,8 +120,6 @@ setup(
 
 # 文中的classifiers的内容并不是随便填写的，你需要参照本文参考文档中的PyPI Classifiers来写
 ```
-
-
 
 ## Generating distribution archives
 
@@ -224,7 +222,7 @@ dist/
 
 执行完成后，会在顶层目录下生成dist目录和egg目录
 
-```
+```bash
 tidy_page
 ├── tidy_page/dist
 │   ├── tidy_page/dist/tidy-page-0.1.0.tar.gz
@@ -245,11 +243,9 @@ tidy_page
 │   └── tidy_page/tidy_page.egg-info/top_level.txt
 ```
 
-
-
 ### Step 2 Uploading the distribution archives-**将whl文件上传到pypi服务器**
 
-打包完成后就可以准备将打包好的模块上传到pypi了，首先你需要在pypi上进行注册 goto [PyPI Live](http://pypi.python.org/pypi?%3Aaction=register_form) 
+打包完成后就可以准备将打包好的模块上传到pypi了，首先你需要在pypi上进行注册 goto [PyPI Live](http://pypi.python.org/pypi?%3Aaction=register_form)
 
 Finally, it's time to upload your package to the Python Package Index!
 
@@ -287,7 +283,7 @@ Don't close the page until you have copied and saved the token you won't see tha
 
 Now that you are registered, you can use twine to upload the distribution packages. You'll need to install Twine:
 
-#### Using this token-**pypirc模板** 
+#### Using this token-**pypirc模板**
 
 To use this API token:
 
@@ -296,13 +292,11 @@ Set your password to the token value, including the testpypi- prefix
 
 For example, if you are using Twine to upload your projects to PyPI, set up your $HOME/.pypirc file like this.
 
-
-
 注册完成后，你需要在本地创建好pypi的配置文件，不然有可能会出现使用http无法上传到pypi的问题,这个文件用来存储刚才注册pypi账号信息
 
 Create a `.pypirc` configuration file，在用户的home目录下创建.pypirc文件，文件的内容如下
 
-Win10 User Create a new file in user folder: .pypirc and input, 
+Win10 User Create a new file in user folder: .pypirc and input,
 
 ```{python}
 [testpypi]
