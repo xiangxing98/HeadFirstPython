@@ -1,3 +1,6 @@
+from chapter02.nester_v2_tab import print_lol_v2
+
+
 with open('james.txt') as jaf:
     data = jaf.readline()
 james = data.strip().split(',')
