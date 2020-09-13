@@ -16,23 +16,26 @@
 # 改变标准输出的默认编码
 # sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 
-# test.py
-print("Current Module Name is:", __name__)
-
-print('恋习Python')
+def myFunction():
+    print('Variable __name__ Current Value is: '+ __name__)
+    print("Current Module Name is:", __name__)
+    print('Execute Function myFunction over.\n')
 
 def main():
-    print('恋习Python')
+    myFunction()
+    print('Execute Function Main over.\n')
 
 if __name__ == '__main__':
+    print('__name__ == \'__main__\', Next Start Function Main.\n')
     main()
-    print('跟着菜鸟分析，练习Python越练越恋')
 
-# 恋习Python
-# 恋习Python
-# 跟着菜鸟分析，练习Python越练越恋
+# __name__ == '__main__', Next Start Function Main.
 
-# here put the import lib
+# Variable __name__ Current Value is: __main__
+# Current Module Name is: __main__
+# Execute Function myFunction over.
+
+# Execute Function Main over.
 
 '''
 
