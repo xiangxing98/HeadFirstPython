@@ -17,8 +17,10 @@ def include_footer(the_links):
           foot_text = footf.read()
      link_string = ''
      for key in the_links:
+          # 替换链接
           link_string += '<a href="'+the_links[key]+'">'+key
           +'</a>&nbsp;&nbsp;&nbsp;&nbsp;'
+          # &nbsp为HTML在字符串尾部加入空格，强制转换
      footer = Template(foot_text)
      return(footer.substitute(links=link_string))
 #使用一个字符串作为参数,来创建一个 html 页面的尾部,页面本身存于 footer.html 中,
@@ -55,11 +57,3 @@ def header(header_text,header_level=2):
 def para(para_text):
      return('<p>'+para_text+'</p>')
 #段落标记一个文本段
-
-
-
-
-
-          
- 
-
