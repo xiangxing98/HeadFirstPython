@@ -1,3 +1,17 @@
+# -*- encoding: utf-8 -*-
+# !/usr/bin/env python
+'''
+@File    :   athletemodel.py
+@Time    :   2020/09/15 22:59:54
+@Author  :   Stone_Hou
+@Version :   1.0
+@Contact :   xiangxing985529@163.com
+@License :   (C)Copyright 2010-2020, Stone_Hou
+@Desc    :   None
+@Refer   :   https://github.com/xiangxing98
+'''
+
+# here put the import lib
 import pickle
 from athletelist import AthleteList
 

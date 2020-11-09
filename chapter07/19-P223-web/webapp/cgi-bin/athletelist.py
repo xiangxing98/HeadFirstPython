@@ -1,3 +1,16 @@
+# -*- encoding: utf-8 -*-
+# !/usr/bin/env python
+'''
+@File    :   athletelist.py
+@Time    :   2020/09/15 23:00:38
+@Author  :   Stone_Hou
+@Version :   1.0
+@Contact :   xiangxing985529@163.com
+@License :   (C)Copyright 2010-2020, Stone_Hou
+@Desc    :   None
+@Refer   :   https://github.com/xiangxing98
+'''
+
 class AthleteList(list): #新的AthleteList 类,继承了原有的list类,包含了原list的所有方法 append,extend
      def __init__(self,a_name,a_dob=None,a_times=[]):
           list.__init__([])
